@@ -27,7 +27,7 @@ void loop()
  int8_t firstByte;
  int8_t secondByte;
  float temp = 0;
- delay(1000); // give time for measurement
+ delay(1000); // give time for measurement0
  Wire.beginTransmission(0x48);
  Wire.write(0xAA); // read temperature command
  Wire.endTransmission();
